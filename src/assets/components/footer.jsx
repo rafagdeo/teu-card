@@ -22,19 +22,20 @@ const footer = () => {
         </div>
 
         <div class="flex flex-col p-0 text-white space-x-0 gap-4 md:pl-12">
-          <a href="/" class="text-2xl hover:underline hover:text-[#0E60F1]">Home</a>
-          <a href="/" class="text-2xl hover:underline hover:text-[#0E60F1]">Sobre nós</a>
-          <a href="" class="text-2xl hover:underline hover:text-[#0E60F1]">Serviços</a>
-          <a href="" class="text-2xl hover:underline hover:text-[#0E60F1]">Projetos</a>
+          <a href="/" class="text-xl hover:underline hover:text-[#0E60F1]">Home</a>
+          <a href="/" class="text-xl hover:underline hover:text-[#0E60F1]">Sobre nós</a>
+          <a href="" class="text-xl hover:underline hover:text-[#0E60F1]">Serviços</a>
+          <a href="" class="text-xl hover:underline hover:text-[#0E60F1]">Projetos</a>
         </div>
 
         <div class="flex flex-col  text-white gap-4">
-          <a href="/" class="text-2xl text-white hover:underline hover:text-[#0E60F1]">Contatos</a>
-          <a href="/" class="text-2xl text-white hover:underline hover:text-[#0E60F1]">Endereço</a>
+          <a href="/" class="text-xl text-white hover:underline hover:text-[#0E60F1]">Contatos</a>
+          <a href="/" class="text-xl text-white hover:underline hover:text-[#0E60F1]">Endereço</a>
         </div>
 
         <div class="flex content-center items-center gap-4 md:flex-col">
           <a href="/" target="_blank">
+          
           </a>
           <a href="/" target="_blank">
           </a>

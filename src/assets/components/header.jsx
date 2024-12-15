@@ -9,28 +9,29 @@ const Header = () => {
   };
 
   return (
-    <div className=''>
-      <header className="navbar fixed w-full p-4 md:border-b-2 border-white/20 flex justify-between bg-black sticky max-w-[1440px] mx-auto py-4 mb-10 top-0 z-10 drop-shadow-md dark:text-black">
+    <div className='mb-36 w-full max-w-[1440px]'>
+      <header className="navbar fixed top-0 z-10 py-4  mb-10 bg-black drop-shadow-md dark:text-black flex justify-between border-b-2 border-white/20 md:px-8 mx-auto left-0 right-0"
+      >
         <div className="logo-page">
           <a className="header-logo text-2xl font-bold" href="/">
             <img src={Logo} width="200" alt="Logo" />
           </a>
         </div>
 
-        {/* Itens do Menu no Desktop */}
+        {/* Desktop */}
         <nav className="hidden md:flex md:items-center">
           <ul className="flex text-white space-x-6 text-lg font-bold content-center items-center">
             <li>
               <a
                 href="/"
-                className="hover:text-blue-500"
+                className="hover:text-brandeis"
               >
                 Home
               </a>
             </li><li>
               <a
                 href="#services"
-                className="hover:text-blue-500"
+                className="hover:text-brandeis"
               >
                 Serviços
               </a>
@@ -38,17 +39,17 @@ const Header = () => {
             <li>
               <a
                 href="#projects"
-                className="hover:text-blue-500"
+                className="hover:text-brandeis"
               >
                 Projetos
               </a>
             </li>
             <li>
               <a
-                href="https://api.whatsapp.com/send?phone=5513996687799&text=Ol%C3%A1%2C%20gostaria%20de%20um%20or%C3%A7amento%20para%20um%20site!"
+                href="/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="hover:text-blue-500"
+                className="text-brandeis"
               >
                 Contato
               </a>
@@ -56,10 +57,10 @@ const Header = () => {
           </ul>
         </nav>
 
-        {/* Botão Hambúrguer para Mobile */}
+        {/* Hambúrguer */}
         <button
           id="menu-toggle"
-          className="text-white md:hidden focus:outline-none"
+          className="text-white md:hidden focus:outline-none hover:text-brandeis"
           onClick={toggleMenu}
         >
           <svg
@@ -81,46 +82,42 @@ const Header = () => {
 
       {/* Menu Lateral para Mobile */}
       {isMenuOpen && (
-        <div className="fixed z-10 top-16 left-0 w-full h-[calc(60vh-4rem)] bg-black text-white transition-transform duration-300">
-          <ul className="flex flex-col items-center justify-center h-full w-full space-y-8 ">
-            <li>
+        <div className="fixed z-10 top-16 left-0 w-full h-[calc(50vh-4rem)] bg-black text-white transition-transform duration-300 border-b">
+          <ul className="flex flex-col justify-center h-full w-full space-y-2">
+            <li className='font-bold text-lg hover:bg-brandeis hover:text-white p-4'>
               <a
-                href="https://rafaelguilherme.com.br"
-                className="w-full rounded-full border-2 border-primary py-2 px-14 hover:bg-primary"
+                href="/"
+        
               >
                 Home
               </a>
             </li>
-            <li>
+            <li className='font-bold text-lg hover:bg-brandeis hover:text-white p-4'>
               <a
                 href="#skills"
-                className="w-full rounded-full border-2 border-primary py-2 px-14 hover:bg-primary"
               >
                 Skills
               </a>
             </li>
-            <li>
+            <li className='font-bold text-lg hover:bg-brandeis hover:text-white p-4'>
               <a
                 href="#services"
-                className="w-full rounded-full border-2 border-primary py-2 px-12 hover:bg-primary"
               >
                 Serviços
               </a>
             </li>
-            <li>
+            <li className='font-bold text-lg hover:bg-brandeis hover:text-white p-4'>
               <a
                 href="#projects"
-                className="rounded-full border-2 border-primary py-2 px-12 hover:bg-primary"
               >
                 Projetos
               </a>
             </li>
-            <li>
+            <li className='font-bold text-lg hover:bg-brandeis hover:text-white p-4'>
               <a
-                href="https://api.whatsapp.com/send?phone=5513996687799&text=Ol%C3%A1%2C%20gostaria%20de%20um%20or%C3%A7amento%20para%20um%20site!"
+                href="/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="rounded-full bg-primary font-bold text-black py-2 px-12   hover:bg-primary"
               >
                 Contato
               </a>
