@@ -9,8 +9,8 @@ const Header = () => {
   };
 
   return (
-    <div className='mb-36 w-full max-w-[1440px]'>
-      <header className="navbar fixed top-0 z-10 py-4  mb-10 bg-black drop-shadow-md dark:text-black flex justify-between border-b-2 border-white/20 md:px-8 mx-auto left-0 right-0"
+    <div className='relative z-10 w-full max-w-[1440px] mb-16'>
+      <header className="navbar fixed top-0 z-10 py-2 bg-black drop-shadow-md dark:text-black flex justify-between border-b-2 border-white/20 md:px-8 mx-auto left-0 right-0"
       >
         <div className="logo-page">
           <a className="header-logo text-2xl font-bold" href="/">
@@ -30,18 +30,18 @@ const Header = () => {
               </a>
             </li><li>
               <a
-                href="#services"
+                href="/sobre"
                 className="hover:text-brandeis"
               >
-                Serviços
+                Sobre nós
               </a>
             </li>
             <li>
               <a
-                href="#projects"
+                href="/diferenciais"
                 className="hover:text-brandeis"
               >
-                Projetos
+                Diferenciais
               </a>
             </li>
             <li>
@@ -49,7 +49,7 @@ const Header = () => {
                 href="/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-brandeis"
+                className="text-white font-bold bg-brandeis rounded-full px-6 py-2 hover:bg-white hover:text-black"
               >
                 Contato
               </a>

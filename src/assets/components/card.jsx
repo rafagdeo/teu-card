@@ -48,7 +48,7 @@ function Card() {
   <section className='px-6 my-24 space-x-6 max-w-[1440px] mx-auto md:flex'>
     <div className='order-2 grid space-y-4 items-center content-center md:order-2 md:pl-24'>
     <h2 className='text-white font-gendy text-4xl font-medium animate-fadeIn'>Mais que um banco</h2>
-    <h3 className='text-white font-gendy text-7xl font-bold animate-fadeIn'>Seu melhor amigo</h3>
+    <h3 className='text-white font-gendy text-7xl font-bold animate-fadeIn'>Teu melhor amigo</h3>
     <p className='text-gray-300 font-muli'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam leo lorem, luctus a mattis a, aliquam in ex. Nam at interdum ligula, sed congue orci. </p>
       <a href="#" className='animate-fadeIn w-60 text-center items-center px-6 py-2 border border-brandeis rounded-full text-white font-bold uppercase bg-blue-700 hover:bg-white hover:border-white hover:text-black'>Conheça mais</a>
     </div>
