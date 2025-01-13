@@ -9,10 +9,8 @@ const sobre = () => {
   return (
     <div>
       <Header />
-      
-
-        <section className='py-40 bg-cover bg-center' style={{ backgroundImage: `url(${BgAbout})` }}>   
-            <div className='px-6 grid gap-4 items-center w-[1127px] mx-auto'>    
+        <section className='px-6 bg-auto bg-no-repeat h-96 gap-6 bg-right content-center' style={{ backgroundImage: `url(${BgAbout})` }}>   
+            <div className='content-center max-w-[1440px] mx-auto'>    
              <h2 className='text-white font-bold text-4xl animate-fadeIn'>Texto chamativo</h2>
              <p className='text-gray-300 font-multi animate-fadeIn'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
              </div>   

@@ -15,11 +15,16 @@
       src: url('https://use.typekit.net/other-font-file.woff2') format('woff2'), url('https://use.typekit.net/other-font-file.woff') format('woff');
     }
     
-    body {
-      font-family: 'Muli', sans-serif;
-    }
     
     h1, h2, h3, h4, h5, h6 {
       font-family: 'Gendy', serif;
+    }
+    html {
+      scroll-behavior: smooth;
+      background-color: black;
+    }
+
+    .transition-transform {
+      transition: transform 0.75s ease-in-out;
     }
     

@@ -1,10 +1,8 @@
-// Importação de imagem
-
-
 /** @type {import('tailwindcss').Config} */
 export default {
   content: [
-    "./src/**/*.{js,ts,jsx,tsx}",
+    "./src/**/*.{js,jsx,ts,tsx}", // Garante que cobre todos os componentes React
+    "./index.html",
   ],
   theme: {
     extend: {

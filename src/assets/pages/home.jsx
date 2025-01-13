@@ -4,6 +4,7 @@ import Screen from '../components/screen'
 import Banner from '../images/banner.png'
 import Not from '../images/not.png'
 
+
 const home = () => {
   return (
     <div>
