@@ -33,7 +33,7 @@ const diferenciais = () => {
                         <p className='text-black-300 text-xl font-muli'>trazemos total liberdade e segurança para suas compras.</p>
                   </div>
                   <div className='items-center content-center '>
-                        <img src={Cartoes} alt="cartão teucard" />
+                        <img src={Cartoes} alt="cartão teucard" className='animate-spin duration-100'/>
                   </div>
             </div>
         </section>
