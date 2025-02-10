@@ -1,13 +1,14 @@
 /** @type {import('tailwindcss').Config} */
 export default {
   content: [
-    "./src/**/*.{js,jsx,ts,tsx}", // Garante que cobre todos os componentes React
+    "./src/**/*.{js,jsx,ts,tsx}", 
     "./index.html",
   ],
   theme: {
     extend: {
       colors: {
         brandeis : '#0E60F1',
+        primary: '#1d4ed8'
       },
       keyframes: {
         fadeIn: {
