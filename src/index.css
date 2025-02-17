@@ -24,13 +24,17 @@ html {
   transition: transform 0.75s ease-in-out;
 }
 .swiper-slide {
-  background-color: white;
   flex-shrink: 0;
   height: 100%;
   padding: 25px;
   position: relative;
   transition-property: transform;
   display: block;
-  background-color: white;
+  border: 1px solid #1d4ed8;
   border-radius: 20px;
+  align-content: center;
+}
+.section-6{
+  background-size: cover;
+  backface-visibility: linear-gradient(-90deg, rgba(0,0,0,1) 10%, rgba(29,29,27,0.014443277310924318) 100%);
 }

@@ -6,6 +6,7 @@ import Gonbank from '../images/banner.png'
 import Not from '../images/not.png'
 import Depoimentos from '../components/Depoimentos'
 import FAQAccordion from '../components/FAQAccordion'
+import BgAbout from '../images/bg-about.png';
 
 
 const home = () => {
@@ -42,11 +43,12 @@ const home = () => {
     </section>
 
 
-    <section className='bg-[#212121] py-24'>
+    <section className= 'py-24 section-6'
+    style={{ backgroundImage: `url(${BgAbout})`}}>
     <div className='grid gap-4 mx-auto container md:w-[1440px] md:flex md:justify-between items-center justify-center '>
       <div className='container mx-auto grid gap-4'>
           <h2 className='text-white font-bold md:text-4xl uppercase'>Quer ter o seu Teu Card? é fácil assim!</h2>
-          <p className='text-md text-white'>Você já sabe: o Teu Card é seu! E para garantir o seu, é só escolher o plano que mais combina com a sua rotina. Em instantes, você estará aproveitando todos os benefícios que preparamos para você. Sem taxas escondidas, sem enrolação. O que é seu, é seu – e o Teu Card chegou para facilitar sua vida.</p>
+          <p className='text-md text-white'>Você já sabe: o Teu Card é seu! E para garantir o seu, é só escolher o plano que mais combina com a sua rotina. Em instantes, você estará aproveitando todos os benefícios que preparamos para você. Sem taxas escondidas, sem enrolação. <br/> <b>O que é seu, é seu – e o Teu Card chegou para facilitar sua vida.</b></p>
           </div>
           <div className='container mx-auto text-right'>
           <a href="#" className='bg-brandeis px-6 py-2 rounded-full text-white font-bold hover:bg-white hover:text-black'>Quero meu Teu Card agora!</a>
@@ -66,7 +68,7 @@ const home = () => {
       <section className='px-6 bg-auto bg-no-repeat h-96 gap-6 bg-right content-center' style={{ backgroundImage: `url(${Banner})` }}>
                 <div className='content-center max-w-[1440px] mx-auto flex'>
                   <div className='space-y-4 w-1/2'>
-                  <h2 className='text-white font-gendy text-7xl font-medium animate-fadeIn'>Mais que um banco</h2>
+                  <h2 className='text-white font-gendy text-7xl font-medium animate-fadeIn'>Mais que um cartão</h2>
                   <p className='text-gray-300 text-font-muli'>Mais liberdade para fazer tudo que quiser </p>
                   <form action="" className='space-x-4'>
                         <input type="text" name="" id="text" placeholder='preencha com seu e-mail' className='text-white border border-white px-4 text-md py-2 w-1/2 rounded-lg bg-transparent focus:border-brandeis focus:border hover:border-brandeis'/>

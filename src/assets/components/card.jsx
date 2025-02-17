@@ -1,6 +1,6 @@
 import React, { useRef, useEffect } from 'react';
 import Video from '../video/card_vd.mp4'
-import Cards from '../video/card_home-1.mp4'
+import Cards from '../video/cartao-home.mp4'
 
 function Card () {
   const videoRef = useRef(null);
